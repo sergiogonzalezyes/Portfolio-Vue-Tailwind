@@ -10,6 +10,10 @@ export default {
         "weather-primary": "#000d01",
         "weather-secondary": "#002202",
         "weather-tertiary": "#003403",
+
+        "light-primary": "#f4f4f4",
+        "light-secondary": "#f8f8f8",
+        "light-tertiary": "#fcfcfc",
       }
     },
     fontFamily: {
@@ -21,7 +25,7 @@ export default {
     },
     screens: {
       "xxs": "320px",
-      "xs": "390px",
+      "xs": "360px",
       "sm": "640px",
       "md": "768px",
       "lg": "1024px",
