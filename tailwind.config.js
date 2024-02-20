@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        "weather-primary": "#00688A",
-        "weather-secondary": "#004E71",
+        "weather-primary": "#000d01",
+        "weather-secondary": "#002202",
+        "weather-tertiary": "#003403",
       }
     },
     fontFamily: {
@@ -24,7 +25,7 @@ export default {
       "lg": "1024px",
       "xl": "1280px",
       "2xl": "1536px",
-    }
+    },
   },
   plugins: [],
 }
