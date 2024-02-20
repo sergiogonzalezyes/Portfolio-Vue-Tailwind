@@ -1,9 +1,9 @@
 <template>
     <div class="flex flex-col justify-center items-center text-white">
     
-        <div class="lg:flex lg:flex-row w-full">
+        <div class="lg:flex lg:flex-row w-full lg:items-center lg:justify-center">
             <div class="flex justify-center items-center"><img src="../assets/images/profilepic.jpg" alt="Profile Picture" class="rounded-full w-80 h-80 xs:h-60 xs:w-60 mt-4 mb-4 shadow-2xl"></div>
-            <div class="flex flex-col justify-center items-center lg:mt-14 px-10">
+            <div class="flex flex-col justify-center items-center xl:mt-14 xl:justify-center xl:items-center xl:flex px-10">
                 <h1 class="text-5xl font-bold text-center mt-5">Sergio Gonzalez</h1>
 
                 <h2 class="text-3xl font-bold text-center mt-2 xs:text-xl">Full-Stack Developer</h2>
