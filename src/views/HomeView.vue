@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container h-[55.5rem]">
     <Home />
   </div>
 </template>

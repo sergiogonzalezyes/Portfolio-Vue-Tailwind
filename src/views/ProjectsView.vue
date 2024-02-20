@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container h-[55.5rem] pt-20">
       <Projects />
     </div>
   </template>

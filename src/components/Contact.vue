@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center text-white min-h-screen">
+    <div class="flex flex-col items-center text-white">
         <h1>Contact Here</h1>
     </div>
 </template>
