@@ -2,10 +2,12 @@
     <div class="flex flex-col justify-center items-center text-white">
     
         <div class="lg:flex lg:flex-row">
-            <div class="flex justify-center items-center"><img src="../assets/images/profilepic.jpg" alt="Profile Picture" class="rounded-full w-80 h-80 mt-4 mb-4 shadow-2xl"></div>
+            <div class="flex justify-center items-center"><img src="../assets/images/profilepic.jpg" alt="Profile Picture" class="rounded-full w-80 h-80 xs:h-60 xs:w-60 mt-4 mb-4 shadow-2xl"></div>
             <div class="flex flex-col justify-center items-center lg:mt-24 px-10">
                 <h1 class="text-5xl font-bold text-center">Sergio Gonzalez</h1>
-                <h2 class="text-3xl font-bold mt-4">Full-Stack Developer</h2>
+
+                <h2 class="text-3xl font-bold text-center mt-4 xs:text-xl">Full-Stack Developer</h2>
+                
                 <!-- Social Media Links Icon buttons -->
                 <div class="flex justify-center items-center gap-6 mt-5">
                     <button aria-label="LinkedIn" class="transition duration-300 ease-in-out hover:scale-[1.3]">
