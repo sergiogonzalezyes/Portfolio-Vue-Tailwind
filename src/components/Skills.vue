@@ -1,7 +1,7 @@
 <template>
     <div class="flex-col items-center justify-evenly gap-4 text-white min-h-screen mt-5">
         <h1 class="font-bold text-3xl my-16 text-center"><i class="fa-solid fa-toolbox"></i>&nbsp;Toolbox</h1>
-        <div class="flex flex-col justify-evenly gap-8 xs:w-[23rem]">
+        <div class="flex flex-col lg:w-full justify-evenly gap-8 xs:w-[23rem]">
             <div class="  bg-slate-800 bg-opacity-60 rounded-xl ">
                 <p class="text-center font-bold text-2xl pt-6"><i class="fa-solid fa-desktop"></i>&nbsp;Client Side</p>
                 <div class="flex flex-col lg:flex-row justify-center items-center mx-20 xs:mx-0">
