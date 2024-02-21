@@ -21,7 +21,7 @@
                     </button>
                     <!-- Download Resume Button -->
                     <button aria-label="Resume" class="transition duration-300 ease-in-out hover:scale-[1.3]">
-                        <a href="../assets/SergioGonzalezResume.pdf" download="SergioGonzalezResume.pdf">
+                        <a href="/src/assets/download/Sergio-Gonzalez-Resume.pdf" download="Sergio-Gonzalez-Resume.pdf">
                             <i class="fa-solid fa-download text-3xl cursor-pointer"></i>
                         </a>
                     </button>
