@@ -1,5 +1,5 @@
 <template>
-    <div class="container h-[55.5rem] pt-20">
+    <div class="flex flex-col container justify-center items-center w-full">
       <Projects />
     </div>
   </template>

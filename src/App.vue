@@ -5,11 +5,12 @@
       <HomeView ref="homeSection" />
     </div>
     <div>
-      <ProjectsView ref="projectsSection" />
-    </div>
-    <div>
       <SkillsView ref="skillsSection"/>
     </div>
+    <div>
+      <ProjectsView ref="projectsSection" />
+    </div>
+
     <div>
       <ContactView ref="contactSection" />
     </div>

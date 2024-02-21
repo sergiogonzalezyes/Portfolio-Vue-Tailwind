@@ -43,28 +43,26 @@
         <div class="lg:flex lg:flex-row w-full lg:items-center lg:justify-center my-10">
             <div class="flex flex-col justify-center items-center lg:w-3/5">
                 <div class="w-full sm:w-full h-0.5 bg-white mt-2 mb-2"></div>
-                <div class="flex w-full justify-around my-4">
-
-                    <div class="flex flex-col justify-center items-center">
-                        <i class="fa-solid fa-guitar text-3xl cursor-pointer"></i>
-                        <p class="text-center font-bold text-">Guitar Player</p>
-                        <p class="text-center">8+ years</p>
-                    </div>
-                    <div class="flex flex-col justify-center items-center">
-                        <i class="fa-solid fa-graduation-cap text-3xl cursor-pointer"></i>
-                        <p class="flex md:flex-col text-center font-bold ">Computer Information Systems</p>
-                        <div class="flex justify-center items-center flex-col lg:flex-row md:flex-row">
-                            <p class="flex text-center">University Of</p>
-                            <p class="flex text-center">&nbsp;Houston</p>
+                    <div class="flex flex-col sm:flex-row w-full justify-evenly my-4">
+                        <div class="flex flex-col justify-start items-center mx-2 space-y-2 py-4">
+                            <i class="fa-solid fa-guitar text-3xl cursor-pointer"></i>
+                            <div class="text-center font-bold">Guitar Player</div>
+                            <p class="text-center">8+ years</p>
+                        </div>
+                        <div class="flex flex-col justify-start items-center mx-2 space-y-2 py-4">
+                            <i class="fa-solid fa-graduation-cap text-3xl cursor-pointer"></i>
+                            <div class="text-center font-bold">Computer Information Systems</div>
+                            <div class="flex justify-center items-center space-x-1">
+                                <p class="text-center">University Of</p>
+                                <p class="text-center">&nbsp;Houston</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-start items-center mx-2 space-y-2 py-4">
+                            <i class="fa-solid fa-lightbulb text-3xl cursor-pointer"></i>
+                            <div class="text-center font-bold">Innovative</div>
+                            <p class="text-center">Problem Solver</p>
                         </div>
                     </div>
-                    <div class="flex flex-col justify-center items-center">
-                        <i class="fa-solid fa-lightbulb text-3xl cursor-pointer"></i>
-                        <p class="text-center font-bold">Innovative</p>
-                        <p class="text-center">Problem Solver</p>
-                    </div>
-
-                </div>
                 <div class="w-full h-0.5 bg-white mt-2 mb-2"></div>
             </div>
         </div>
