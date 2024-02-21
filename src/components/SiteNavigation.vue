@@ -15,7 +15,7 @@
             <!-- Regular links, visible on medium and larger screens -->
             <div class="hidden sm:flex flex-col sm:flex-row gap-6 flex-1 justify-end">
                 <p @click="$emit('scroll-to-section', 'projects')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.1] cursor-pointer">Projects</p>
-                <p @click="$emit('scroll-to-section', 'skills')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.1] cursor-pointer">Skills</p>
+                <p @click="$emit('scroll-to-section', 'experience')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.1] cursor-pointer">Experience</p>                <p @click="$emit('scroll-to-section', 'skills')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.1] cursor-pointer">Skills</p>
                 <p @click="$emit('scroll-to-section', 'contact')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.1] cursor-pointer ">Contact</p>
                 <!-- dark mode icon toggle -->
                 <i v-if="!darkMode" @click="toggleDarkMode" class="fa-solid fa-moon text-2xl transition duration-300 ease-in-out hover:scale-[1.3] cursor-pointer"></i>
@@ -26,6 +26,7 @@
             <transition name="slide-down">
                 <div v-show="isMenuOpen" class="flex flex-col sm:hidden gap-5 flex-1 justify-end">
                     <p @click="NavToggleMenu('projects')" class="text-2xl  transition duration-300 ease-in-out hover:scale-[1.15] cursor-pointer text-center">Projects</p>
+                    <p @click="NavToggleMenu('experience')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.15] cursor-pointer text-center">Experience</p>
                     <p @click="NavToggleMenu('skills')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.15] cursor-pointer text-center">Skills</p>
                     <p @click="NavToggleMenu('contact')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.15] cursor-pointer text-center">Contact</p>
                     <i v-if="!darkMode" @click="toggleDarkMode" class="fa-solid fa-moon text-2xl transition duration-300 ease-in-out hover:scale-[1.2] cursor-pointer text-center"></i>
