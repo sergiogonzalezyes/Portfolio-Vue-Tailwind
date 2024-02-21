@@ -9,7 +9,7 @@
                 <h2 class="text-3xl font-bold text-center mt-2 xs:text-xl">Full-Stack Developer</h2>
                 
                 <!-- Social Media Links Icon buttons -->
-                <div class="flex justify-center items-center gap-6 mt-6">
+                <div class="flex justify-center items-center gap-8 mt-6">
                     <button aria-label="LinkedIn" class="transition duration-300 ease-in-out hover:scale-[1.3]">
                         <a href="https://www.linkedin.com/in/sergio-gonzalez-garcia-b5082a264/" target="_blank">
                             <i class="fa-brands fa-linkedin-in text-3xl cursor-pointer"></i>
@@ -30,15 +30,45 @@
         </div>
 
 
-        <div class="flex flex-col justify-center items-center mt-6 lg:w-3/5">
+        <div class="flex flex-col justify-center items-center my-12 lg:w-3/5">
             <h5 class="text-2xl font-bold">About Me</h5>
             <!-- line break -->
-            <div class="w-full h-0.5 bg-white mt-2 mb-2"></div>
-            <p class="text-center">Hello! I'm Sergio Gonzalez, a Full-Stack Developer passionate about creating technology that connects and resonates.
+            <!-- <div class="w-full h-0.5 bg-white mt-4 mb-2"></div> -->
+            <p class="text-center my-2">Hello! I'm Sergio Gonzalez, a Full-Stack Developer passionate about creating technology that connects and resonates.
              Skilled in database and full-stack design, I craft seamless systems that enhance user experience. Driven by constant learning and teamwork,
               I thrive on the dynamic evolution of tech, taking joy in every line of code that weaves into our digital world.
             </p>
         </div>
+
+        <div class="lg:flex lg:flex-row w-full lg:items-center lg:justify-center my-10">
+            <div class="flex flex-col justify-center items-center lg:w-3/5">
+                <div class="w-full sm:w-full h-0.5 bg-white mt-2 mb-2"></div>
+                <div class="flex w-full justify-around my-4">
+
+                    <div class="flex flex-col justify-center items-center">
+                        <i class="fa-solid fa-guitar text-3xl cursor-pointer"></i>
+                        <p class="text-center font-bold text-">Guitar Player</p>
+                        <p class="text-center">8+ years</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <i class="fa-solid fa-graduation-cap text-3xl cursor-pointer"></i>
+                        <p class="flex md:flex-col text-center font-bold ">Computer Information Systems</p>
+                        <div class="flex justify-center items-center flex-col lg:flex-row md:flex-row">
+                            <p class="flex text-center">University Of</p>
+                            <p class="flex text-center">&nbsp;Houston</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <i class="fa-solid fa-lightbulb text-3xl cursor-pointer"></i>
+                        <p class="text-center font-bold">Innovative</p>
+                        <p class="text-center">Problem Solver</p>
+                    </div>
+
+                </div>
+                <div class="w-full h-0.5 bg-white mt-2 mb-2"></div>
+            </div>
+        </div>
+
     </div>
 </template>
 
