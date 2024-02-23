@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col justify-center items-center">
-        <div class="flex flex-col justify-center items-center w-2/3">
+    <div class="flex flex-col justify-center items-center w-full">
+        <div class="flex flex-col justify-center items-center w-full lg:w-3/5">
             <div class="bg-white opacity-50 h-0.5 my-16 w-full"></div>
 
             <h1 class="text-4xl text-center text-white">Interested in working together? </h1>

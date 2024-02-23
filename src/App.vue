@@ -17,7 +17,7 @@
     <div>
       <ContactView ref="contactSection" />
     </div>
-    <SiteFooter @scroll-to-section="scrollToSection"/>
+    <SiteFooter/>
   </div>
 </template>
 

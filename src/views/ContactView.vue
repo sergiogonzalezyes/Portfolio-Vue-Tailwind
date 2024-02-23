@@ -1,5 +1,5 @@
 <template>
-    <div class="container py-32">
+    <div class="container">
       <Contact />
     </div>
   </template>
