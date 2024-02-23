@@ -30,6 +30,9 @@
                 <textarea id="message" name="message" placeholder="Message" required class="w-full rounded-sm bg-slate-600 text-white px-3 mb-4 fixed-size-textarea" maxlength="300" @input="countAmountCharacters"></textarea>
                 <p class="flex text-white justify-end">{{ characterCount }}/300</p>
               </div>
+              <div class="hidden">
+                <input type="text" name="honeypot" id="honeypot" placeholder="Leave this field empty" />
+              </div>
               <div class="flex justify-center items-center">
                 <button type="submit" class="bg-slate-600 text-white font-bold py-2 px-4 rounded w-40 hover:bg-slate-500 hover:scale-[1.1] cursor-pointer transition duration-300 ease-in-out">
                   Submit
@@ -59,11 +62,27 @@ const countAmountCharacters = (e) => {
 const sendEmail = async () => {
     try {
         const form = document.getElementById('contactForm');
+        const honeypot = document.getElementById('honeypot').value;
+        const lastSubmissionTime = localStorage.getItem('lastSubmissionTime');
+        const currentTime = Date.now();
+
+        if (honeypot) {
+            // console.log('Honeypot field is filled');
+            return;
+        }
+
+        if (lastSubmissionTime && currentTime - parseInt(lastSubmissionTime) < 86400000) {
+            // console.log('Form submission is too soon. Please allow me 24 hours to respond.');
+            alert('Form submission is too soon. Please allow me 24 hours to respond.');
+            return;
+        }
+
         const result = await emailjs.sendForm(emailJsServiceId, templateId, form, { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY });
         console.log('Email sent successfully', result.text);
         alert('Email sent successfully. I will get back to you as soon as possible!');
         form.reset();
         characterCount.value = 0;
+        localStorage.setItem('lastSubmissionTime', currentTime.toString());
     } catch (error) {
         console.error('Failed to send email', error.text);
         alert('Failed to send email. Please try again.');
