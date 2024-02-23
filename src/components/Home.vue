@@ -42,7 +42,7 @@
 
         <div class="lg:flex lg:flex-row w-full lg:items-center lg:justify-center my-10">
             <div class="flex flex-col justify-center items-center lg:w-3/5">
-                <div class="w-full sm:w-full h-0.5 bg-white mt-2 mb-2"></div>
+                <div class="w-full sm:w-full h-0.5 bg-white opacity-50 mt-2 mb-2"></div>
                     <div class="flex flex-col sm:flex-row w-full justify-evenly my-4">
                         <div class="flex flex-col justify-start items-center mx-2 space-y-2 py-4">
                             <i class="fa-solid fa-guitar text-3xl cursor-pointer"></i>
@@ -63,7 +63,7 @@
                             <p class="text-center">Problem Solver</p>
                         </div>
                     </div>
-                <div class="w-full h-0.5 bg-white mt-2 mb-2"></div>
+                <div class="w-full h-0.5 bg-white opacity-50 mt-2 mb-2"></div>
             </div>
         </div>
 
