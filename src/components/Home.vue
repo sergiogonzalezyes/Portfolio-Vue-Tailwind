@@ -11,7 +11,7 @@
                 <!-- Social Media Links Icon buttons -->
                 <div class="flex justify-center items-center gap-8 mt-6">
                     <button aria-label="LinkedIn" class="transition duration-300 ease-in-out hover:scale-[1.3]">
-                        <a href="https://www.linkedin.com/in/sergio-gonzalez-garcia-b5082a264/" target="_blank">
+                        <a href="https://www.linkedin.com/in/sergio-gonzalez-b5082a264/" target="_blank">
                             <i class="fa-brands fa-linkedin-in text-3xl cursor-pointer"></i>
                         </a>
                     </button>
