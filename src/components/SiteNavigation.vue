@@ -19,8 +19,8 @@
                 <!-- <p @click="$emit('scroll-to-section', 'projects')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.1] cursor-pointer">Projects</p> -->
                 <p @click="$emit('scroll-to-section', 'contact')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.1] cursor-pointer ">Contact</p>
                 <!-- dark mode icon toggle -->
-                <i v-if="!darkMode" @click="toggleDarkMode" class="fa-solid fa-moon text-2xl transition duration-300 ease-in-out hover:scale-[1.3] cursor-pointer"></i>
-                <i v-else @click="toggleDarkMode" class="fa-solid fa-sun text-2xl transition duration-300 ease-in-out hover:scale-[1.3] cursor-pointer"></i>
+                <!-- <i v-if="!darkMode" @click="toggleDarkMode" class="fa-solid fa-moon text-2xl transition duration-300 ease-in-out hover:scale-[1.3] cursor-pointer"></i>
+                <i v-else @click="toggleDarkMode" class="fa-solid fa-sun text-2xl transition duration-300 ease-in-out hover:scale-[1.3] cursor-pointer"></i> -->
             </div>
 
             <!-- Dropdown menu, hidden by default on small screens -->
