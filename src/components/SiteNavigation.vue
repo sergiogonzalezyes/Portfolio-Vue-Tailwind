@@ -30,8 +30,8 @@
                     <p @click="NavToggleMenu('skills')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.15] cursor-pointer text-center">Skills</p>
                     <!-- <p @click="NavToggleMenu('projects')" class="text-2xl  transition duration-300 ease-in-out hover:scale-[1.15] cursor-pointer text-center">Projects</p> -->
                     <p @click="NavToggleMenu('contact')" class="text-2xl transition duration-300 ease-in-out hover:scale-[1.15] cursor-pointer text-center">Contact</p>
-                    <i v-if="!darkMode" @click="toggleDarkMode" class="fa-solid fa-moon text-2xl transition duration-300 ease-in-out hover:scale-[1.2] cursor-pointer text-center"></i>
-                    <i v-else @click="toggleDarkMode" class="fa-solid fa-sun text-2xl transition duration-300 ease-in-out hover:scale-[1.3] cursor-pointer text-center"></i>
+                    <!-- <i v-if="!darkMode" @click="toggleDarkMode" class="fa-solid fa-moon text-2xl transition duration-300 ease-in-out hover:scale-[1.2] cursor-pointer text-center"></i>
+                    <i v-else @click="toggleDarkMode" class="fa-solid fa-sun text-2xl transition duration-300 ease-in-out hover:scale-[1.3] cursor-pointer text-center"></i> -->
                 </div>
             </transition>
         </nav>
